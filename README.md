@@ -1,7 +1,7 @@
 # MS17-010 exploit
 MS17-010 exploit for Windows 2000 and later by sleepya mod by joker2a
 
-Add you meterpreter (joker.exe) :
+Add your meterpreter (joker.exe) :
 
 def smb_pwn(conn, arch):
 	smbConn = conn.get_smbconnection()
